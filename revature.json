@@ -1,0 +1,30 @@
+{
+  "type": "python",
+  "testFiles": [
+    {
+      "path": "src/test/lab_test.py",
+      "testCases": [
+        {
+          "methodName": "test_initial_state",
+          "label": "Verify initial Lightbulb state",
+          "description": "Checks that a Lightbulb instance correctly reports its initial state when created as either on or off."
+        },
+        {
+          "methodName": "test_method_name",
+          "label": "Verify required method exists",
+          "description": "Ensures the Lightbulb class contains a callable method named get_description, validating that the method is implemented."
+        },
+        {
+          "methodName": "test_get_description",
+          "label": "Verify get_description output",
+          "description": "Checks that get_description returns the correct human-readable string based on whether the Lightbulb is on or off."
+        },
+        {
+          "methodName": "test_set_state",
+          "label": "Verify set_state updates Lightbulb state",
+          "description": "Ensures that calling set_state updates the internal state of the Lightbulb and that get_state reflects the new value."
+        }
+      ]
+    }
+  ]
+}
